@@ -1,0 +1,926 @@
+FernUniversitaet Hagen / Lehrstuhl EvIS / 2012
+
+C-Kurs 00810 
+
+Aufgabentexte fuer selbst zu entwickelnde Beispielprogramme
+=========================================================== 
+
+Nachfolgend finden Sie die Aufgabentexte fuer alle von Ihnen
+selbst zu entwickelnden Aufgaben (vgl. Kurseinheit 1, Kapitel 1.3).
+Es versteht sich von selbst, dass jedes Programm nach der Erstellung 
+des Quellcodes uebersetzt und getestet, also ausgefuehrt werden soll.  
+
+Viel Erfolg!
+
+
+******************************************************************************
+*                                 Kapitel 1                                  *
+******************************************************************************
+
+
+****** Aufgabe:   1
+****** Beispiel:  01-05
+
+Schreiben Sie ein Programm, das folgenden Text auf dem Bildschirm ausgibt: 
+
+    "C ist meine x-te Programmiersprache!" 
+
+Fuer x soll natuerlich der fuer Sie persoenlich zutreffende Wert erscheinen, 
+der durch eine Variable geliefert werden soll. Gehen Sie analog vor wie im 
+Beispielprogramm Nr. 1 des Kapitels 1.2. 
+
+
+******************************************************************************
+*                                 Kapitel 2                                  *
+******************************************************************************
+
+
+keine Aufgaben
+
+
+******************************************************************************
+*                                 Kapitel 3                                  *
+******************************************************************************
+
+
+******  Aufgabe:   2
+******  Beispiel:  03-03
+
+Schreiben Sie ein Programm, das verschiedene Variablen und Konstanten
+definiert:
+
+- Die Konstanten aconst mit dem Wert 1000 und bconst mit dem Wert 1, beide
+  vom Typ int
+- Die Variablen Tag, Monat, Jahr vom Typ int gemeinsam definiert
+- Die Variablen tag, monat, jahr vom Typ int getrennt definiert
+- Die Variablen betrag1 und betrag2 vom Typ float
+- Die Variable sum vom Typ double
+- Die Variable summe1 vom Typ long, die mit 0 initialisiert wird.
+- Die Variable summe2 vom Typ long, die mit der Summe aus aconst und bconst
+  initialisiert wird.
+- Die Variable betrag vom Typ double, die mit dem Produkt aus aconst und
+  10 hoch -3 initialisiert wird.
+
+Geben sie zum Schluss die Werte von summe1, summe2 und betrag am Bildschirm
+aus.
+
+
+******  Aufgabe:   3
+******  Beispiel:  03-04
+
+Schreiben Sie ein Programm, das verschiedene Konstanten mit der
+const-Anweisung definiert:
+
+- Die Konstante MAX         vom Typ int   mit dem Wert 100
+- Die Konstante PI          vom Typ float mit dem Wert 3.14159
+- Die Konstante Durchmesser vom Typ float mit dem Wert 20.7
+- Die Konstante Radius      vom Typ float mit dem halben Durchmesser
+- Die Konstante MwSt        vom Typ float mit dem Wert 16
+- Die Konstante Temperatur  vom Typ float mit dem Wert 37.0
+- Die Zeichenkettenkonstante Satz (Grundtyp char) mit dem Wert
+  "Hallo da bin ich."
+
+Berechnen und geben Sie aus:
+- Den Kreisumfang (PI * Durchmesser)
+- Die Kreisflaeche (PI * Radius^2)
+- Den Mehrwertsteuer-Anteil eines 100EUR teuren Artikels
+
+Geben Sie aus:
+- Die Temperatur
+- Den Satz
+
+Was passiert, wenn Sie versuchen, einer Konstanten nach der Definition
+einen Wert zuzuweisen?
+
+Die Konstante 'Radius' bekommt einen von der Konstante 'Durchmesser'
+abhaengigen Wert zugewiesen. Wie reagiert der Compiler, wenn Sie die
+beiden Konstanten in umgekehrter Reihenfolge, 'Durchmesser' also nach
+'Radius' definieren?
+
+
+******  Aufgabe:   4
+******  Beispiel:  03-05
+
+Schreiben Sie ein Programm, das die gleichen Konstanten wie in Aufgabe 3
+mit der define-Anweisung definiert. Geben Sie auch die gleichen Daten
+auf dem Bildschirm aus.
+
+Die Konstante 'Radius' bekommt einen von der Konstante 'Durchmesser'
+abhaengigen Wert zugewiesen. Wie reagiert der Compiler, wenn Sie die
+beiden Konstanten in umgekehrter Reihenfolge, 'Durchmesser' also nach
+'Radius' definieren?
+
+
+******  Aufgabe:   5
+******  Beispiel:  03-10
+
+Schreiben Sie ein Programm, das die roemischen Zahlen vom 1 bis 10
+(I, II, III, IV, V, VI, VII, VIII, IX und X) als Aufzaehlungstyp definiert
+und definieren Sie weiterhin zwei Variablen rom1 und rom2 von diesem Typ.
+Wie viele verschiedene Moeglichkeiten fallen Ihnen ein, diesen Typ und die
+Variablen zu definieren?
+
+Das Programm soll alle vier Grundrechenarten, Zuweisungen und Vergleiche
+mit den roemischen Zahlen testen. Die Ergebnisse sind jeweils auszugeben.
+
+Versuchen Sie, der Variable rom1 eine reelle Zahl zuzuweisen. Wie verhaelt 
+sich Ihr Compiler?
+
+
+******************************************************************************
+*                                 Kapitel 4                                  *
+******************************************************************************
+
+
+******  Aufgabe:   6
+******  Beispiel:  04-05
+
+Schreiben Sie ein Programm, das die Funktion printf mit verschiedenen Format-
+spezifikationen benutzt. Umfassen Sie Ihre Ausgabe mit < und >, damit Sie
+die Leerstellen besser erkennen koennen (z.B. <12345  >).
+
+Geben sie die Zahl 12345 aus:
+- 7-stellig mit fuehrenden Nullen, links- und rechsbuendig, mit und ohne Vor-
+  zeichen.
+
+Geben Sie die Zahl PI (3.14159) aus:
+- 7-stellig mit zwei Nachkommastellen, links- und rechsbuendig, 
+  mit und ohne Vorzeichen, mit fuehrenden Nullen, im wissenschaftlicher
+  Notation mit grossem und kleinem E
+
+Geben Sie die Zahl 5.99999999 mit zwei Nachkommastellen aus. Gibt
+es Rundungsfehler?
+
+Geben Sie die Zeichenkette "FernUni Hagen" aus:
+- Mit mindestens 10 Zeichen Breite. Wird die Zeichenkette abgeschnitten?
+- Mit mindestens 20 Zeichen Breite, links- und rechsbuendig
+- Mit maximal 10 Zeichen
+- Mit maximal 10 Zeichen in einem 20 Zeichen breiten Bereich, links- und
+  rechsbuendig
+
+Geben Sie das Zeichen * aus:
+- In einem 5 Zeichen breiten Bereich, links- und rechsbuendig
+
+Geben sie die Zahl 123 aus:
+- als int, unsigned int, float, in oktaler Darstellung, in hexadezimaler
+  Darstellung mit Gross- und Kleinbuchstaben.
+
+Geben Sie folgende Steuer- und Sonderzeichen aus:
+- horizontale Tabulatoren '\t'
+- Wagenruecklauf '\r'
+- Klingelzeichen '\a'
+- Einfache ' und doppelte Anfuehrungszeichen "
+- Gegenstrich (Backslash) '\'
+- Prozentzeichen '%'
+- Zeilenvorlauf '\n'
+
+Bilden Sie mittels einer printf-Anweisung und mit Hilfe der Variablen 
+- string  = "ist"
+- zeichen = ":"
+- PI      = 3.14159
+den Satz "Dies ist die Zahl Pi: 3.14159".
+
+
+******  Aufgabe:   7
+******  Beispiel:  04-07
+
+Schreiben Sie ein Programm, das den Benutzer nach seinen persoenlichen Daten
+fragt (Name, Vorname, Geburtstag und -ort) und diese in tabellarischer Form
+und als Text "Sie heissen .. und wurden am .. in .. geboren" ausgibt.
+
+
+******************************************************************************
+*                                 Kapitel 5                                  *
+******************************************************************************
+
+
+******  Aufgabe:   8
+******  Beispiel:  05-01
+
+Schreiben Sie ein Programm, das positive und negative, ganze und reelle Zahlen
+mit den Operatoren +, -, *, / und % verknuepft.
+
+Testen Sie den Modulo-Operator % auch mit gebrochenen Datentypen und pruefen
+Sie, wie der Compiler reagiert.
+
+Ergebnisse von Rechenoperationen sind jeweils auszugeben.
+
+
+******  Aufgabe:   9
+******  Beispiel:  05-02
+
+Schreiben Sie ein Programm, das die Vergleichsoperatoren <, >, ==, !=, <=, >=
+und die logischen Operatoren ||, &&, ! testet. Verwenden Sie Variablen in
+Bedingungen fuer if-Abfragen und modifizieren Sie deren Werte, um verschiedene
+Ergebnisse zu erzielen, z. B.:
+
+    if ((a < 50) && (b > 2))  
+        printf("Logisches UND: beide Bedingungen waren erfuellt");
+    else
+        printf("Logisches UND: mind. eine Bedingung war nicht erfuellt");
+
+
+******  Aufgabe:   10
+******  Beispiel:  05-07
+
+Schreiben Sie ein Programm, das eine eingegebene Temperatur von Grad Celsius
+in Grad Fahrenheit umrechnet und das Ergebnis ausgibt. Die Umrechnungsformel 
+lautet (Kurzform):
+
+                   9
+    fahrenheit =  --- * celsius + 32
+                   5
+
+Erweitern Sie das Programm derart, dass man die Temperatur auch von Grad 
+Fahrenheit in Grad Celsius umrechnen kann. Stellen Sie zuerst die 
+angegebene Formel geeignet um. 
+
+
+******************************************************************************
+*                                 Kapitel 6                                  *
+******************************************************************************
+
+
+******  Aufgabe:   11
+******  Beispiel:  06-07
+
+Schreiben Sie ein Programm, das eine Zinseszinstabelle am Bildschirm ausgibt.
+Das Anfangskapital soll 1000 EUR, der Zinssatz 10% und die Dauer 10 Jahre
+betragen. Geben Sie den Gesamtbetrag des Kapitals fuer jedes Jahr in einer 
+Tabelle (Tabellenkopf: Jahr    Gesamtbetrag) ausgibt. 
+Verwenden Sie hierzu eine while-Schleife.
+
+
+******  Aufgabe:   12
+******  Beispiel:  06-09
+
+Schreiben Sie ein Programm, das Sie bei Ihrem Autokauf unterstuetzt. Das
+Programm soll Sie fragen, ob ein bestimmtes Angebot hinsichtlich verschiedener
+Kriterien (z.B. Farbe, Preis, Anzahl der Tueren usw.) Ihren Vorstellungen
+entspricht. Zum Schluss soll Ihnen das Programm anhand der Anzahl der erfuell-
+ten Bedingungen einen Rat geben, das Auto zu kaufen oder sich ein anderes
+Angebot anzuschauen.
+
+******  Aufgabe:   13
+******  Beispiel:  06-13
+
+Schreiben Sie ein Programm, das ein Schachbrettmuster auf dem Bildschirm
+ausgibt. Zuerst soll der Benutzer nach der Groesse des Musters gefragt werden
+(Anzahl Reihen des Bretts). Dann soll in zwei geschachtelten for-Schleifen mit
+den Anweisungen putchar(32) und putchar(178) das Muster gezeichnet werden.
+
+
+******  Aufgabe:   14
+******  Beispiel:  06-14
+
+Schreiben Sie ein Programm, das alle Karten eines Skatblattes am Bildschirm
+ausgibt. Definieren Sie hierzu die Aufzaehlungstypen Wert (sieben, acht, ...,
+Dame, Koenig, As) und Farbe (karo,herz,...). Durchlaufen Sie alle Kombi-
+nationen in zwei geschachtelten for-Schleifen und geben Sie die entsprechenden
+Namen mit Hilfe einer switch-case-Anweisung aus.
+
+
+******  Aufgabe:   15
+******  Beispiel:  06-16
+
+Schreiben Sie ein Programm, das die Summe aller geraden Zahlen von 2 bis zu
+einem Maximum berechnet. Durchlaufen Sie dafuer alle Zahlen in einer for-
+Schleife und ueberpruefen Sie, ob die Zahl gerade ist. Wenn nicht, dann
+setzen Sie die Schleife mit einer continue-Anweisung fort.
+
+
+******************************************************************************
+*                                 Kapitel 7                                  *
+******************************************************************************
+
+
+******  Aufgabe:   16
+******  Beispiel:  07-07
+
+Schreiben Sie ein Programm, das nach Wahl des Benutzers entweder den Umfang
+oder die Flaeche eines Kreises berechnet. Benutzen Sie fuer die Berechnung
+zwei Funktionen. Beide sollen den Radius des Kreises als Parameter erhalten 
+und den Kreisumfang bzw. die Kreisflaeche zurueckliefern.
+
+
+******  Aufgabe:   17
+******  Beispiel:  07-09
+
+Schreiben Sie ein Programm, das eine Potenz einer reellen Basis mit einem
+ganzzahligen, nichtnegativen Exponenten berechnet. Benutzen Sie zur Berechnung
+eine Funktion power(). Die Kommunikation der Funktionen power() und 
+main() soll ausschliesslich ueber globale Variablen erfolgen.
+
+
+******  Aufgabe:   18
+******  Beispiel:  07-10
+
+Schreiben Sie ein Programm, das eine Potenz einer reellen Basis mit einem
+ganzzahligen, nichtnegativen Exponenten berechnet. Benutzen Sie zur Berechnung
+nun eine Funktion power(), die Basis und Exponent ueber Parameter erhaelt und
+das Ergebnis ueber einen Rueckgabewert liefert.
+
+
+******  Aufgabe:   19
+******  Beispiel:  07-16
+
+Der italienische  Mathematiker Fibonacci  hat sich  im 13. Jahrhundert
+mit dem Thema der Entwicklung des Umfangs einer Population beschaeftigt. 
+Er  versuchte, das Wachstum einer  Kaninchenpopulation ausgehend von 
+einem Kaninchenpaar  vorherzusagen. Dabei ging  er davon aus, dass die
+Tragezeit bei Kaninchen einen  Monat dauert und dass  Kaninchen im Alter
+von einem  Monat geschlechtsreif  und zugleich  auch traechtig werden.
+Weiterhin nahm er an, dass jedes  Kaninchenpaar zwei Kinder, ein weib-
+liches und ein maennliches, bekommt.  Die Population, d. h. die Anzahl
+der  Kaninchenpaare in  einem gegebenen  Monat,  ergibt sich  dann als
+Summe der  Paare des Vormonats und der aktuellen Anzahl  der geborenen
+Paare,  die  genau der  Paaranzahl vor  zwei Monaten  entspricht.  Die
+Geburten des Vormonats werden erst in diesem Monat geschlechtsreif. In
+den ersten beiden Monaten ist  die Population jeweils 1, da die Stamm-
+eltern erst zu Eltern heranreifen muessen.
+
+Die Populationsumfaenge des von Fibonacci untersuchten Modells 
+der Populationsentwicklung werden auch als Fibonaccizahlen bezeichnet.
+Die Bildungsvorschrift fuer die Fibonacci-Zahlen lautet demnach:
+
+        fib(1) = 1                      Anzahl der Paare im 1. Monat
+        fib(2) = 1                      Anzahl der Paare im 2. Monat
+        fib(n) = fib(n-2) + fib(n-1)    Anzahl der Paare in den folgenden
+                                        Monaten (n >= 3)
+
+    Die ersten 7 Fibonacci-Zahlen ergeben sich hiernach wie folgt:
+        1, 1, 2, 3, 5, 8, 13
+
+Schreiben Sie zunaechst ein Programm, das mit Hilfe einer rekursiven Funktion 
+die Fibonacci-Zahlen berechnet. 
+
+Programmieren Sie die Berechnung der Fibonacci-Zahlen danach iterativ, das
+heisst ohne rekursive Funktionsaufrufe. Testen Sie den Zeitbedarf beider
+Varianten zur Berechnung von fib(35) und von fib(40). Funktionen zur Zeit-
+messung werden in dem Beispielprogramm B08-03.c vorgestellt, siehe KE2, Kap.8. 
+
+
+******************************************************************************
+*                                 Kapitel 8                                  *
+******************************************************************************
+
+
+******  Aufgabe:   20
+******  Beispiel:  08-07
+
+Schreiben Sie ein Programm, das den Benutzer nach Name und Anrede fragt. 
+Ermitteln Sie anhand der eingegebenen Anrede (Herr, Frau) das
+Geschlecht der Person und geben Sie das Geschlecht in einem Satz aus
+(etwa "Frau Schubert ist weiblichen Geschlechts."). Fuegen Sie dann mit 
+den Anweisungen strcpy und strcat in einer Zeichenkette satz einen Text 
+in der Form "Frau Schubert geht zur Arbeit." zusammen. 
+Ermitteln sie die Laenge der Zeichenkette und geben Sie diese 
+mit der printf-Anweisung aus. Geben Sie zum Schluss die Zeichenkette in 
+einer for-Schleife nochmals Zeichen fuer Zeichen aus.
+
+
+******  Aufgabe:   21
+******  Beispiel:  08-08
+
+Schreiben Sie ein Programm, das anhand eines Dauerkalenders den Wochentag
+zu einem beliebig eingegebenen Datum (ab 01.01.1898) berechnet. 
+Benutzen Sie fuer die Berechnung folgende Tabelle und Formeln:
+
+  /* Hilfsfeld fuer die Berechnung des Datums */
+  int schluessel[28][12] =
+      {{4, 0, 0, 3, 5, 1, 3, 6, 2, 4, 0, 2},
+       {5, 1, 1, 4, 6, 2, 4, 0, 3, 5, 1, 3},
+       {6, 2, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4},
+       {0, 3, 4, 0, 2, 5, 0, 3, 6, 1, 4, 6},
+       {2, 5, 5, 1, 3, 6, 1, 4, 0, 2, 5, 0},
+       {3, 6, 6, 2, 4, 0, 2, 5, 1, 3, 6, 1},
+       {4, 0, 0, 3, 5, 1, 3, 6, 2, 4, 0, 2},
+       {5, 1, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4},
+       {0, 3, 3, 6, 1, 4, 6, 2, 5, 0, 3, 5},
+       {1, 4, 4, 0, 2, 5, 0, 3, 6, 1, 4, 6},
+       {2, 5, 5, 1, 3, 6, 1, 4, 0, 2, 5, 0},
+       {3, 6, 0, 3, 5, 1, 3, 6, 2, 4, 0, 2},
+       {5, 1, 1, 4, 6, 2, 4, 0, 3, 5, 1, 3},
+       {6, 2, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4},
+       {0, 3, 3, 6, 1, 4, 6, 2, 5, 0, 3, 5},
+       {1, 4, 5, 1, 3, 6, 1, 4, 0, 2, 5, 0},
+       {3, 6, 6, 2, 4, 0, 2, 5, 1, 3, 6, 1},
+       {4, 0, 0, 3, 5, 1, 3, 6, 2, 4, 0, 2},
+       {5, 1, 1, 4, 6, 2, 4, 0, 3, 5, 1, 3},
+       {6, 2, 3, 6, 1, 4, 6, 2, 5, 0, 3, 5},
+       {1, 4, 4, 0, 2, 5, 0, 3, 6, 1, 4, 6},
+       {2, 5, 5, 1, 3, 6, 1, 4, 0, 2, 5, 0},
+       {3, 6, 6, 2, 4, 0, 2, 5, 1, 3, 6, 1},
+       {4, 0, 1, 4, 6, 2, 4, 0, 3, 5, 1, 3},
+       {6, 2, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4},
+       {0, 3, 3, 6, 1, 4, 6, 2, 5, 0, 3, 5},
+       {1, 4, 4, 0, 2, 5, 0, 3, 6, 1, 4, 6},
+       {2, 5, 6, 2, 4, 0, 2, 5, 1, 3, 6, 1}};
+
+  zeile     = (jahr - 1897) % 28
+  spalte    = monat - 1
+  wochentag = (schluessel + tag) % 7
+
+  Wochentag == 0 entspricht Samstag
+  Wochentag == 1 entspricht Sonntag
+  Wochentag == 2 entspricht Montag
+  ...
+
+Entwickeln Sie das Programm in zwei Verfeinerungsschritten. 
+Verwenden Sie fuer den nullten Verfeinerungsschritt das 
+EVA-Schema (vgl. KE2, 8.3).
+
+
+******  Aufgabe:   22
+******  Beispiel:  08-11
+
+Schreiben Sie ein Programm, das eine vom Benutzer eingegebene quadratische
+Matrix mit n Reihen daraufhin ueberprueft, ob es ein Magisches Quadrat ist. 
+
+Ein Magisches Quadrat liegt vor, wenn 
+- bei n*n Plaetzen jede der Zahlen 1, 2, ..., n*n genau einmal 
+  in der Matrix vorkommt. 
+- alle Zeilensummen, alle Spaltensummen und die Summen der
+  beiden Diagonalen links/unten -> rechts oben sowie 
+  links/oben -> rechts/unten (d.h. A(i,i) bzw. A(i,n-i+1), i = 1,...,n) 
+  denselben Wert besitzen, der auch als magische Summe bezeichnet wird.
+
+Beruecksichtigen Sie alle Bedingungen bei Ihrer Pruefung!
+Auf dem Kupferstich "Melancholie" von Albrecht Dürer findet sich 
+das folgende Magische Quadrat der Groesse 4, das
+fuer den Programmtest benutzt werden kann: 
+
+	16  3  2 13 
+	 5 10 11  8 
+	 9  6  7 12
+	 4 15 14  1   
+
+Zusatzaufgabe: Pruefen Sie bei gerader Reihenanzahl zusaetzlich, ob
+ein Magisches Quadrat auch die Eigenschaft besitzt, dass die Summen
+der Zahlen der vier Viertel (links/oben, rechts/oben,...) sowie 
+die Summe der mittleren vier Zahlen gleich der magischen Summe ist. 
+
+******************************************************************************
+*                                 Kapitel 9                                  *
+******************************************************************************
+
+
+******  Aufgabe:   23
+******  Beispiel:  09-04
+
+Schreiben Sie ein Programm, das die Daten (Name, Vorname, Alter) einer
+Person in einer Struktur namens Person abspeichert. Kopieren Sie Name und 
+Vorname in eine zweite Struktur namens Personal, die aus den Elementen Name, 
+Vorname und Personalnummer besteht. Ergaenzen Sie die Personalnummer in 
+dieser Struktur per Abfrage und und geben Sie abschliessend alle erfassten 
+Daten wieder am Bildschirm aus.
+
+
+******  Aufgabe:   24
+******  Beispiel:  09-05
+
+Schreiben Sie ein Programm, in dem ein Vektor von 50 Strukturen vom Typ
+
+  typedef struct
+    {
+    char name[15];
+    char vorname[15];
+    int  semester;
+    long matrikelnr;
+    } STUDENTEN;
+
+definiert wird. Zuerst soll der Benutzer einige dieser Strukturen mit Daten 
+fuellen koennen. Danach soll das Programm ein Menue ausgeben, in dem der 
+Benutzer waehlen kann, ob er alle Datensaetze auflisten will oder einen 
+bestimmten Datensatz anhand des Namens, des Semesters oder der Matrikelnummer 
+suchen will. In beiden Faellen sollen die jeweils relevanten Datensaetze in 
+tabellarischer Form ausgegeben werden.
+
+
+******************************************************************************
+*                                 Kapitel 10                                 *
+******************************************************************************
+
+******  Aufgabe:   25
+******  Beispiel:  10-15
+
+Schreiben Sie ein Programm, das die Zeigeroperatoren * und & benutzt. Geben
+Sie mittels dieser Operatoren folgende Werte aus bzw. fuehren Sie folgende 
+Operationen aus: 
+- Ausgabe Speicheradresse einer Variablen i vom Typ int
+- Ausgabe Adresse, auf die ein uninitialisierter Zeiger ptr zeigt
+- Ausgabe Adresse, auf die ein mit NULL initialisierter Zeiger ptr zeigt
+- weisen Sie dem Zeiger prt die Adresse von i zu und geben Sie diese aus
+- Ausgabe Speicherinhalt, auf den ptr zeigt
+- Ausgabe Speicheradresse von ptr selbst
+- weisen Sie die Speicheradresse von ptr dem Zeiger ptr_ptr zu
+- Ausgabe Inhalt der Adresse auf den der Zeiger zeigt, auf den ptr_ptr zeigt
+- Ausgabe Abstand der Speicheradressen von ptr und i
+
+Hinweis: Zur Ausgabe einer Zeigeradresse 
+benutzen Sie die Formatspezifikation %p von printf.
+
+Die haeufigste Fehlerquelle im Umgang mit Zeigern ist, dass versucht wird,
+ueber nicht initialisierte oder mit NULL initialisierte Zeiger auf Speicher-
+bereiche zuzugreifen. Dadurch koennen z. B. wichtige Daten des Betriebs-
+systems ueberschrieben werden. Versuchen Sie, auf die Speicherstellen des
+nicht oder mit NULL initialisierten Zeiger ptr zuzugreifen. Wie
+reagiert das Programm bzw. das Betriebssystem an diesen Stellen?
+
+
+******  Aufgabe:   26
+******  Beispiel:  10-16
+
+Schreiben Sie ein Programm, das einen Vektor von 20 Variablen von Typ int
+definiert, diesen initialisiert und dann den Benutzer Werte eintragen laesst.
+Die eingetragenen Werte sollen abschliessend ausgegeben werden. 
+Benutzen Sie zum Zugriff auf den Vektor keinen Index (vektor[i]), sondern
+realisieren Sie das Programm nur mit Zeigern auf die Vektorelemente.
+
+
+******  Aufgabe:   27
+******  Beispiel:  10-17
+
+Schreiben Sie ein Programm, das mit Hilfe von Zeigern auf ein zweidimen-
+sionales Feld zugreift. Ein Feld ist in folgender Form im Speicher organi-
+siert:
+
+  Ein Feld arr[x][y] mit x = y = 10 ist zeilenweise
+  im Speicher abgelegt:
+      (0,0)(0,1)(0,2)...(0,9) ->
+      (1,0)(1,1)........(1,9) ->
+      (2,0).................. ->
+      ..................(9,9)
+  dabei bedeutet z. B. (0,2) den Speicherplatz fuer das
+  Element arr[0][2].
+
+Initialisieren Sie das Feld nur mit Hilfe von Zeigern, so dass die Elemente den
+Wert Spalte * 10 + Zeile erhalten. Geben Sie danach das Feld am Bildschirm aus,
+und zwar wiederum nur mit Hilfe von Zeigern.
+
+
+******  Aufgabe:   28
+******  Beispiel:  10-19
+
+Schreiben Sie ein Programm, das einen Vektor des folgenden Strukturtyps 
+PERSON definiert:
+
+  typedef struct
+  {
+      char name[20];
+      char vorname[20];
+      int  alter;
+  } PERSON;
+
+Der Benutzer soll zunaechst einige Strukturen des Vektors mit Daten 
+fuellen koennen. Danach soll das Programm die Daten in tabellarischer 
+Form am Bildschirm ausgeben. Benutzen sie fuer den Zugriff auf die 
+Strukturen im Vektor und ihre Komponenten nur Zeiger.
+
+
+******  Aufgabe:   29
+******  Beispiel:  10-20
+
+Schreiben Sie ein Programm, das den Strukturtyp Bruch definiert:
+
+  typedef struct
+  {
+    int zaehler;
+    int nenner;
+  } BRUCH;
+
+Das Programm soll den Benutzer nach zwei Bruechen fragen. Berechnen Sie danach
+das kleinste gemeinsame Vielfache (kgV) der Nenner, erweitern Sie die Brueche
+um das kgV und berechnen sie die Summe der Brueche. Danach kuerzen Sie das 
+Ergebnis soweit wie moeglich und geben Sie die gekuerzte Summe aus. 
+Benutzen Sie die folgenden Funktionen:
+
+- int  ggT(int a, int b); // ggT = groesster gemeinsamer Teiler
+- int  kgV(int a, int b);
+- void erweitern(BRUCH *bruch, int hauptnenner);
+- void kuerzen(BRUCH *bruch);
+
+
+******************************************************************************
+*                                 Kapitel 11                                 *
+******************************************************************************
+
+
+******  Aufgabe:   30
+******  Beispiel:  11-06
+
+Schreiben Sie ein Programm, das wiederholt Texteingaben des Benutzers 
+entgegennimmt und diese in eine Textdatei schreibt. Der Benutzer soll 
+den Text zeilenweise eingeben. Nach der Eingabe jeder Zeile soll diese 
+in die Datei geschrieben werden. Mit der Eingabe eines "*" als eine 
+Zeile soll das Programm enden.(Siehe auch die folgende Aufgabe.)
+
+
+******  Aufgabe:   31
+******  Beispiel:  11-07
+
+Schreiben Sie ein Programm, das die in Aufgabe 30 erzeugte Datei wieder
+zeilenweise am Bildschirm ausgibt.
+
+
+******  Aufgabe:   32
+******  Beispiel:  11-09
+
+Schreiben Sie ein Programm, das in einem Vektor der Laenge 5 vom Typ PERSON
+
+typedef struct 
+  {
+    unsigned int nummer;
+    char         name[21];
+    char         vorname[21];
+  } PERSON;
+
+die vom Benutzer eingegebenen Daten fuer maximal 5 Personen speichert. 
+Schreiben Sie diesen Vektor in eine Textdatei, reinitialisieren Sie den 
+Vektor und lesen Sie die Daten wieder aus der Datei ein. Geben Sie die 
+Daten des Vektors zum Schluss zur Ueberpruefung tabellarisch am 
+Bildschirm aus.
+
+
+******  Aufgabe:   33
+******  Beispiel:  11-10
+
+Schreiben Sie ein Programm, das die gleiche Aufgabe erfuellt, wie das Programm
+in Aufgabe 32. Jedoch sollen die Personendaten diesmal in einer Binaerdatei 
+gespeichert werden.
+
+
+******************************************************************************
+*                                 Kapitel 12                                 *
+******************************************************************************
+
+keine Aufgaben
+
+
+******************************************************************************
+*                                 Kapitel 13                                 *
+******************************************************************************
+
+
+******  Aufgabe:   34
+******  Beispiel:  13-05
+
+Schreiben Sie ein Programm, das fortgesetzt Pseudozufallszahlen erzeugt. Zur 
+Erzeugung einer Zufallszahl soll die Funktion 
+   unsigned int Zufallszahl(void) 
+je einmal aufgerufen werden. Bei einem Aufruf der Funktion Zufallszahl 
+soll diese die naechste Zufallszahl aus der vorhergehenden Zufallszahl 
+mit der Formel 
+
+  zufall = (FAKTOR * zufall + INCR) % MODULO
+
+generieren. Speichern Sie zu diesem Zweck die zuletzt ermittelte
+Zufallszahl als static-Variable in der Funktion. Initialisieren Sie diese
+Variable mit dem Startwert 17 und benutzen Sie in der Formel die Konstanten
+
+  #define FAKTOR 25173UL
+  #define INCR   13849UL
+  #define MODULO 65536UL
+
+Ueberpruefen Sie, ob die ersten zehn Zufallszahlen
+
+  48574, 61999, 40372, 31453, 39802, 35227, 15504, 29161, 14966 und 52039
+
+lauten.
+
+
+******  Aufgabe:   35
+******  Beispiel:  13-06
+
+Schreiben Sie ein Programm, das wie in Aufgabe 34 Pseudozufallszahlen erzeugt,
+nur das die dafuer notwendigen Funktionen in eine zweiten Quelldatei ausge-
+lagert werden. Definieren Sie in dieser zweiten Quelldatei
+
+- die statische Variable Zufallszahl vom Typ unsigned int
+- die Funktion void SetSeed(unsigned int seed) zum initialisieren der
+  Variable Zufallszahl
+- die statische Funktion void NaechsteZufallszahl(void), die nach der in
+  Aufgabe 34 genannten Formel die naechste Zufallszahl errechnet und diese
+  in der Variable Zufallszahl speichert.
+- die Funktion unsigned int Random(void), die die Funktion
+  NaechsteZufallszahl() aufruft und dann die Variable Zufallszahl zurueck-
+  liefert. Zuvor soll sie einen in der ersten Quelldatei definierten Zaehler
+  aufruf_zaehler um eins erhoehen.
+
+Machen Sie in der ersten Quellatei alle notwendigen Funktionen der zweiten
+Datei bekannt und definieren sie eine gloable Variable aufruf_zaehler vom
+Typ unsigned long. Setzen Sie den Startwert auf 17 und ueberpruefen Sie, ob
+Sie die gleichen Zufallszahlen wie in Aufgabe 34 erhalten.
+
+
+******  Aufgabe:   36
+******  Beispiel:  13-07
+
+Schreiben Sie ein Programm, das Bool'sche Variablen benutzt. Definieren Sie
+den Typ boolean und die zugehoerigen Konstanten TRUE und FALSE in einer
+gesonderten Header-Datei. Ueberpruefen Sie die Funktionsfaehigkeit des 
+definierten Typs boolean mit einem kurzen Programm, das in if-Abfragen 
+Bool'sche Operatoren benutzt.
+
+
+******************************************************************************
+*                                 Kapitel 14                                 *
+******************************************************************************
+
+
+Allgemeiner Hinweis zu den Aufgaben des Kap. 14: 
+Bei allen Aufgaben bis auf B14-12 koennen die Headerdatei und 
+die Funktionsdatei fuer den Programmtest notfalls auch aus 
+der jeweiligen Musterloesung kopiert werden. Es verbleibt dann 
+die Erstellung der Funktionsdatei, die die geforderten 
+Funktionen des jeweils erforderlichen abstrakten Datentyps
+(ADT) enthaelt. Orientieren Sie sich bezueglich der Organisierung 
+der Programme in mehrere Quelldateien an den Kursbeispielen 
+des Kapitels 14.
+
+******  Aufgabe:   37
+******  Beispiel:  14-07
+
+Schreiben Sie ein Programm, das ein Telefonbuch simuliert und dazu die Daten
+in einer einfach verketteten Liste speichert. Definieren Sie die Datentypen
+
+  /* Knoten fuer den ADT Telefonbuch.
+     Knoten nimmt die zu speichernden Daten eines Tel.bucheintrags auf */
+  typedef struct tag_knoten
+    {
+      char              name[20];     /* Der Name */
+      char              telefon[15];  /* Die Telefonnummer */
+      struct tag_knoten *nachfolger;  /* Ein Zeiger auf den Nachfolger */
+    } KNOTEN;
+
+  /* Typ eines Zeigers auf einen Knoten */
+  typedef KNOTEN *pKNOTEN;
+
+und deklarieren Sie die Funktionen
+
+  /* Loescht alle Knoten der Liste */
+  void LoescheGanzeListe(void);
+  /* Fuegt einen Knoten am Anfang der Liste ein */
+  void FuegeKnotenAmAnfangEin(char *name, char *telefon);
+  /* Loescht der ersten Knoten in der Liste */
+  void LoescheKnotenAmAnfang(void);
+  /* Gibt die Daten des ersten Knoten in der Liste aus */
+  void GibKnotenAmAnfangAus(void);
+  /* Gibt die Daten aller Knoten in der Liste aus */
+  void GibAlleKnotenAus(void);
+  /* Ermittelt die Anzahl der Knoten in der Liste */
+  unsigned int ErmittleAnzahlDerKnoten(void);
+  /* Gibt die Daten des/der Knoten mit dem uebergebenen Namen aus */
+  void GibKnotenMitNamenAus(char *name);
+  /* Loescht alle Knoten mit dem uebergenenen Namen */
+  void LoescheKnotenMitNamen(char *name);
+  /* Fuegt einen Knoten sortiert in die Liste ein */
+  void FuegeKnotenSortiertEin(char *name, char *telefon);
+
+in einer Header-Datei. Definieren Sie die genannten Funktionen zur Verwaltung
+des Telefonbuchs in einer separaten Quelldatei. In dieser Quelldatei sollte 
+auch der Kopf der Liste als statische Variable definiert werden, 
+um einen Zugriff auf die Liste unter Umgehung der oben aufgefuehrten Funktionen
+zu verhindern.
+
+Schreiben Sie in einer weiteren Quelldatei ein Testprogramm fuer den ADT
+Telefonbuch. Das Testprogramm sollte alle oben genannten Funktionen nutzen. 
+Insbesondere sollte der Benutzer waehlen koennen, ob die Liste der 
+Telefonbucheintraege sortiert oder unsortiert sein soll.
+
+
+******  Aufgabe:   38
+******  Beispiel:  14-09
+
+Schreiben Sie ein Programm, das einen Aktenstapel simuliert. Realisieren
+Sie dies mit Hilfe einer einfach verketteten Liste mit Knoten vom folgenden
+Typ:
+
+  /* Knoten fuer den Aktenstapel.
+     Knoten nimmt die zu speichernden Daten auf. */
+  typedef struct tag_knoten
+  {
+    unsigned long     aktennummer;
+    char              aktenzeichen[5];
+    char              sachbearbeiter[30];
+    struct tag_knoten *nachfolger;  /* Ein Zeiger auf den Nachfolger */
+  } KNOTEN;
+
+  /* Typ eines Zeigers auf einen Knoten */
+  typedef KNOTEN *pKNOTEN;
+
+Definieren Sie folgende Funktionen fuer den Aktenstapel:
+
+  /* Schiebt ein Element auf den Stapel */
+  void push(unsigned long nummer, char *zeichen, char *bearbeiter);
+  /* Nimmt das erste Element von dem Stapel und liefert die Daten */
+  boolean pop(unsigned long *nummer, char *zeichen, char *bearbeiter);
+  /* Liefert die Daten des ersten Elements auf dem Stapel ohne es zu
+     loeschen */
+  boolean top(unsigned long *nummer, char *zeichen, char *bearbeiter);
+  /* Liefert die Anzahl der Elemente auf dem Stack */
+  unsigned long Anzahl(void);
+
+Organisieren Sie den Quellcode wie in Aufgabe 37 in zwei Quelldateien 
+und einer Headerdatei. Definieren Sie den Datentyp boolean wie in 
+Aufgabe 36 in der Headerdatei.
+
+Schreiben Sie ein Testprogramm fuer den ADT Aktenstapel, in dem ein Sach-
+bearbeiter fortgesetzt den Stapel abarbeitet, waehrend sein Chef vor Beginn 
+der Abarbeitung eine Anzahl Akten auf den Stapel legt.
+
+
+******  Aufgabe:   39
+******  Beispiel:  14-10
+
+Schreiben Sie ein Programm, das eine Patientenwarteschlange simuliert.
+Realisieren Sie dies mit Hilfe einer einfach verketteten Liste mit Knoten
+vom folgenden Typ:
+
+  /* Knoten fuer die Schlange. 
+     Knoten nimmt die zu speichernden Daten auf. */
+  typedef struct tag_knoten
+  {
+    char              name[30];
+    char              beschwerden[30];
+    struct tag_knoten *nachfolger;  /* Ein Zeiger auf den Nachfolger */
+  } KNOTEN;
+
+  /* Typ eines Zeigers auf einen Knoten */
+  typedef KNOTEN *pKNOTEN;
+
+Definieren Sie folgende Funktionen fuer die Warteschlange:
+
+  /* Schiebt einen Knoten in die Schlange */
+  void rear(char *name, char *beschwerden);
+  /* Nimmt den ersten (vordersten) Knoten aus der Schlange und liefert die
+     Daten*/
+  boolean front(char *name, char *beschwerden);
+  /* Liefert die Daten des ersten Knotens in der Schlange ohne ihn zu
+     loeschen */
+  boolean next(char *name, char *beschwerden);
+  /* Liefert die Anzahl der Knoten in der Schlange */
+  unsigned long Anzahl(void);
+
+Organisieren Sie den Quellcode wie in Aufgabe 37 in zwei Quell- und einer
+Headerdatei. Zum Datentyp boolean vgl. Aufgabe 36 und vorige Aufgabe.
+
+Schreiben Sie ein Testprogramm fuer den ADT Patientenwarteschlange, in dem
+abwechselnd eine Arzthelferin Patienten und ihre Beschwerden aufnimmt und 
+die Aerztin die Patienten der Reihe nach untersucht.
+
+
+******  Aufgabe:   40
+******  Beispiel:  14-11
+
+Schreiben Sie ein Programm, das wie in Aufgabe 37 ein Telefonbuch simuliert. 
+Das Telefonbuch soll jedoch diesmal als binaerer Suchbaum organisiert sein. 
+Definieren Sie dazu die Datentypen:
+
+  /* Knoten fuer Binaeren Baum. 
+     Knoten nimmt die zu speichernden Daten auf. */
+  typedef struct tag_Knoten
+  {
+    char              name[30];
+    char              telefon[30];
+    struct tag_Knoten *links;
+    struct tag_Knoten *rechts;
+  } KNOTEN;
+
+  /* Typ eines Zeigers auf einen Knoten */
+  typedef KNOTEN *pKNOTEN;
+
+und die Funktionen
+
+  /* Fuegt einen Knoten in den binaeren Baum ein */
+  void FuegeKnotenEin(char *name, char *telefon);
+
+  /* Gibt die Daten des Baums aus */
+  void AusgabePraeorder(void);
+  void AusgabeInorder(void);
+  void AusgabePostorder(void);
+
+Organisieren Sie den Quellcode wie in Aufgabe 37 in zwei Quell- und einer
+Headerdatei. Schreiben Sie ein Testprogramm, mit dem der Benutzer Eintraege 
+im Telefonbuch vornimmt. Anschliessend soll der Baum in den Varianten
+Praeorder, Inorder und Postorder ausgegeben werden.
+
+
+******  Aufgabe:   41
+******  Beispiel:  14-12
+
+Schreiben Sie ein Programm, das wie in Beispiel 08-02 mit Hilfe des Siebs des
+Eratosthenes die Primzahlen bis zu einer von dem Benutzer bestimmten 
+Obergrenze ermittelt. Allokieren Sie jedoch den erforderlichen Vektor waehrend 
+der Laufzeit (vgl. Beispiel 14-02).
+
+
+******************************************************************************
+*                          Kapitel 15  -  (Anhang A2)                        *
+******************************************************************************
+
+keine Aufgaben
+
+
+ENDE DER LISTE 
+

@@ -1,0 +1,925 @@
+FernUniversitaet Hagen / Lehrstuhl EvIS / 2012
+
+C-Kurs 00810 
+
+Referenzliste der Beispielprogramme
+=================================== 
+
+*********************** Kapitel 1 ********************************************
+
+***  Nr.:   1
+Beispiel:               01-01, das erste C-Programm
+Konzepte/               main-Funktion, Variablen, Ein-Ausgabe-Bibliothek, 
+Sprachelemente:         Funktion printf
+Beispieltyp:            ausfuehren
+
+***  Nr.:   2
+Beispiel:               01-02, Minimum zweier reeller Zahlen
+Konzepte/               main-Funktion, Variablen, EA-Bibliothek
+Sprachelemente:         Funktionen printf, scanf, if-else-Auswahl
+Beispieltyp:            ausfuehren
+
+***  Nr.:   3
+Beispiel:               01-03, Maximum von 5 reellen Zahlen
+Konzepte/               main-Funktion, Variablen, EA-Bibliothek
+Sprachelemente:         Funktionen printf, scanf, while-Schleife
+Beispieltyp:            modifizieren
+
+***  Nr.:   4
+Beispiel:               01-04, Minimum zweier reeller Zahlen
+Konzepte/               main-Funktion, Variablen, EA-Bibliothek
+Sprachelemente:         Funktion printf, scanf, if-else-Anweisung,
+                        mehrere Funktionen
+Beispieltyp:            modifizieren
+
+***  Nr.:   5
+Beispiel:               01-05, das erste selbst entwickelte C-Programm
+Konzepte/               main-Funktion, Variablen, Konstanten
+Sprachelemente:         Ein-Ausgabe-Bibliothek, Funktion printf
+Beispieltyp:            entwickeln
+
+
+*********************** Kapitel 2 ********************************************
+
+***  Nr.:   5
+Beispiel:               02-01, syntaktische Fehler
+Konzepte/               Beispiele fuer syntaktische Fehler
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+
+*********************** Kapitel 3 ********************************************
+
+***  Nr.:   6
+Beispiel:               03-01, Berechnung eines Kreisumfangs
+Konzepte/               Aufbau von Programmen, die nur die main-Funktion
+Sprachelemente:         enthalten
+Beispieltyp:            ausfuehren
+
+***  Nr.:   7
+Beispiel:               03-02, einfache vordefinierte Datentypen
+Konzepte/               Vorstellung aller einfachen vordefinierten Datentypen
+Sprachelemente:         mit den (maschinenabhaengigen) Wertebereichen
+Beispieltyp:            ausfuehren
+
+***  Nr.:   8
+Beispiel:               03-03, Variablen und Konstanten definieren
+Konzepte/               Mehrere Varianten zur Definition und
+Sprachelemente:         Initialisierung von Variablen 
+Beispieltyp:            entwickeln
+
+***  Nr.:   9
+Beispiel:               03-04, Konstanten mit const-Anweisung
+Konzepte/               Definition von Konstanten per const-Anweisung
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+***  Nr.:  10
+Beispiel:               03-05, Konstanten per Praeprozessor-Anweisung
+Konzepte/               Definition von Konstanten per Praeprozessor-
+Sprachelemente:         Anweisung #define
+Beispieltyp:            entwickeln
+
+***  Nr.:  11
+Beispiel:               03-06, Unter- bzw. Ueberlauf
+Konzepte/               Bereichsueberschreitung bei ganzzahligen Variablen,
+Sprachelemente:         Unter- bzw. Ueberlauf
+Beispieltyp:            ausfuehren
+
+***  Nr.:  12
+Beispiel:               03-07, typedef-Vereinbarung
+Konzepte/               einfache typedef-Vereinbarungen
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+***  Nr.:  13
+Beispiel:               03-08, char-Variablen
+Konzepte/               Besonderheiten des char-Datentyps, char-Variablen
+Sprachelemente:         als Wert oder als Zeichen gesehen
+Beispieltyp:            ausfuehren
+
+***  Nr.:  14
+Beispiel:               03-09, Anwendung des sizeof-Operators
+Konzepte/               sizeof-Operator, Speicherbedarf fuer
+Sprachelemente:         vordefinierte Datentypen ermitteln
+Beispieltyp:            modifizieren
+
+***  Nr.:  15
+Beispiel:               03-10, roemische Zahlen
+Konzepte/               Aufzaehlungstyp enum
+Sprachelemente:         
+Beispieltyp:            entwickeln
+
+
+*********************** Kapitel 4 ********************************************
+
+***  Nr.:  16
+Beispiel:               04-01, Ausgabe von Zeichen
+Konzepte/               Zeichenausgabe mit der Funktion putchar
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  17
+Beispiel:               04-02, Einlesen von Zeichen
+Konzepte/               Zeichen einlesen mit der Funktion getchar
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  18
+Beispiel:               04-03, Ein- und Ausgabe von Zeichen
+Konzepte/               Funktionen putchar, getchar und Konstante EOF
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  19
+Beispiel:               04-04, Ausgabe mit printf I
+Konzepte/               Funktion printf, Formatspezifikationen
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+
+***  Nr.:  20
+Beispiel:               04-05, Ausgabe mit der printf II
+Konzepte/               Funktion printf, Formatspezifikationen
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+***  Nr.:  21
+Beispiel:               04-06, Formatierte Eingabe
+Konzepte/               Formatierte Eingabe mit der Funktion scanf
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  22
+Beispiel:               04-07, persoenliche Daten
+Konzepte/               Funktionen scanf und printf
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+
+*********************** Kapitel 5 ********************************************
+
+***  Nr.:  23
+Beispiel:               05-01, arithmetische Operatoren
+Konzepte/               Arithmetische Operatoren fuer die vordefinierten
+Sprachelemente:         ganzzahligen und gebrochenen Datentypen
+Beispieltyp:            entwickeln
+
+***  Nr.:  24
+Beispiel:               05-02, Vergleichs- und logische Operatoren
+Konzepte/               Vergleichsoperatoren: <, >, ==, !=, <=, >=
+Sprachelemente:         logische Operatoren:  ||, &&, !
+Beispieltyp:            entwickeln
+
+***  Nr.:  25
+Beispiel:               05-03, Bitoperatoren
+Konzepte/               Bitoperatoren <<, >>, &, |, ^
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  26
+Beispiel:               05-04, Zuweisungsoperatoren
+Konzepte/               Zuweisungsoperatoren +=, -=, *=, /=, %=
+Sprachelemente:         Zuweisungen als Ausdruecke
+Beispieltyp:            ausfuehren
+
+***  Nr.:  27
+Beispiel:               05-05, Typumwandlungen
+Konzepte/               Typumwandlungen bei Zuweisungen
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+***  Nr.:  28
+Beispiel:               05-06, Abbruch der Bewertung logischer Ausdruecke
+Konzepte/               if-Abfrage, logische Operatoren && und ||,
+Sprachelemente:         Bewertung logischer Ausdruecke
+Beispieltyp:            modifizieren
+
+
+***  Nr.:  29
+Beispiel:               05-07, Umrechnung Celsius in Fahrenheit
+Konzepte/               arithmetische Operatoren
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+
+*********************** Kapitel 6 ********************************************
+
+***  Nr.:  30
+Beispiel:               06-01, Klassifizierung von ASCII-Zeichen
+Konzepte/               Verschachtelte if-else-Auswahlanweisung
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  31
+Beispiel:               06-02, Einfacher Taschenrechner
+Konzepte/               switch-Auswahl
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  32
+Beispiel:               06-03, Summierung reeller Werte I
+Konzepte/               while-Schleife
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  33
+Beispiel:               06-04, Summierung reeller Werte II
+Konzepte/               do-while-Schleife
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  34
+Beispiel:               06-05, Summe ungerader Zahlen
+Konzepte/               for-Schleife
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  35
+Beispiel:               06-06, n-te Potenz von 2
+Konzepte/               for-Schleife
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  36
+Beispiel:               06-07, Zinseszinstabelle
+Konzepte/               Umgang mit Konstanten, 
+Sprachelemente:         while-Schleife
+Beispieltyp:            entwickeln
+
+***  Nr.:  37
+Beispiel:               06-08, Abfrage des Wochentages
+Konzepte/               Aufzaehlungsvariable,
+Sprachelemente:         switch-case-Auswahl
+Beispieltyp:            ausfuehren
+
+***  Nr.:  38
+Beispiel:               06-09, Autokauf
+Konzepte/               if-else-Auswahl
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+***  Nr.:  39
+Beispiel:               06-10, Monitorkauf
+Konzepte/               switch-case-Anweisung ohne break
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+***  Nr.:  40
+Beispiel:               06-11, Bonbonpreisentwicklung
+Konzepte/               while-Schleife
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+***  Nr.:  41
+Beispiel:               06-12, ASCII-Tabelle
+Konzepte/               do-while-Schleife
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  42
+Beispiel:               06-13, Schachbrett
+Konzepte/               geschachtelte for-Schleifen
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+***  Nr.:  43
+Beispiel:               06-14, Spielkarten
+Konzepte/               geschachtelte for-Schleifen, switch-case-Anweisung,
+Sprachelemente:         Aufzaehlungsvariablen
+Beispieltyp:            entwickeln
+
+***  Nr.:  44
+Beispiel:               06-15, Textstatistik
+Konzepte/               while-Schleife und switch-case-Abfrage
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+***  Nr.:  45
+Beispiel:               06-16, Summe aller geraden Zahlen bis zu einem Maximum
+Konzepte/               continue-Anweisung
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+***  Nr.:  46
+Beispiel:               06-17, Verbundanweisungen
+Konzepte/               Verbundanweisungen in Bloecken und mit Kommaoperator
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+
+*********************** Kapitel 7 ********************************************
+
+***  Nr.:  47
+Beispiel:               07-01, Volumen eines Kreiskegels I
+Konzepte/               Programm mit mehreren Funktionen, Parameteruebergabe,
+Sprachelemente:         Prototypen
+Beispieltyp:            modifizieren
+
+***  Nr.:  48
+Beispiel:               07-02, Volumen eines Kreiskegels II
+Konzepte/               Programm mit mehreren Funktionen, globale Variablen
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  49
+Beispiel:               07-03, Berechnung von n! ("n-Fakultaet")
+Konzepte/               Rekursion
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  50
+Beispiel:               07-04, Initialisierung von lokalen  und globalen Variablen
+Konzepte/               automatische und selbstdefinierte Initialisierung
+Sprachelemente:         von lokalen und globalen Variablen
+Beispieltyp:            ausfuehren
+
+***  Nr.:  51
+Beispiel:               07-05, Funktionsaufrufe
+Konzepte/               Funktionen und Beispiele fuer ihren Aufruf,
+Sprachelemente:         mathematische Funktionen aus math.h
+Beispieltyp:            ausfuehren
+
+***  Nr.:  52
+Beispiel:               07-06, Menue
+Konzepte/               Wertrueckgabe von Programmen
+Sprachelemente:         an das Betriebsssystem
+Beispieltyp:            ausfuehren
+
+***  Nr.:  53
+Beispiel:               07-07, Umfang und Flaeche eines Kreises
+Konzepte/               Funktionsaufruf und Wertrueckgabe
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+***  Nr.:  54
+Beispiel:               07-08, globale und lokale Variablen
+Konzepte/               Sichtbarkeit globaler und lokaler Variablen
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  55
+Beispiel:               07-09, Berechnung einer Potenz, Version I
+Konzepte/               Funktionsaufruf und Uebergabe der Werte durch
+Sprachelemente:         globale Variablen
+Beispieltyp:            entwickeln
+
+***  Nr.:  56
+Beispiel:               07-10, Berechnung der Potenz, Version II
+Konzepte/               Funktionsaufruf und Uebergabe der Werte durch
+Sprachelemente:         Parameter
+Beispieltyp:            entwickeln
+
+***  Nr.:  57
+Beispiel:               07-11, Kaufpreisermittlung
+Konzepte/               Funktionsaufruf mit Parameteruebergabe
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+***  Nr.:  58
+Beispiel:               07-12, Quadratwurzel nach Archimedes
+Konzepte/               Funktionsaufruf mit Parametern und Wertrueckgabe
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  59
+Beispiel:               07-13, Pyramide aus Zahlen
+Konzepte/               rekursiver Aufruf einer Funktion
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  60
+Beispiel:               07-14, Lohntuete
+Konzepte/               Funktionsaufruf mit Werterueckgabe
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+***  Nr.:  61
+Beispiel:               07-15, Der Turm der Brahmanen ("Tuerme von Hanoi")
+Konzepte/               Rekursion
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+***  Nr.:  62
+Beispiel:               07-16, Fibonacci-Zahlen
+Konzepte/               Rekursion
+Sprachelemente:         
+Beispieltyp:            entwickeln
+
+
+*********************** Kapitel 8 ********************************************
+
+***  Nr.:  63
+Beispiel:               08-01, Multiplikation eines Vektors mit einer Zahl
+Konzepte/               Vektoren
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  64
+Beispiel:               08-02, Primzahlberechnung mit dem Sieb des Eratosthenes
+Konzepte/               mehrere Funktionen, Vektoren, Steueranweisungen
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+***  Nr.:  65
+Beispiel:               08-03, Sortierverfahren und Suchverfahren
+Konzepte/               Sortieren von und Suchen in Vektoren, Funktion qsort,
+Sprachelemente:         Funktionen fuer Erzeugung von Zufallszahlen und
+                        Laufzeitmessung
+Beispieltyp:            modifizieren
+
+***  Nr.:  66
+Beispiel:               08-04, Ein- und Ausgabe von Strings
+Konzepte/               Einlesen und Ausgeben von Strings mit den Funktionen
+Sprachelemente:         getchar, scanf, gets, printf, puts
+Beispieltyp:            modifizieren
+
+***  Nr.:  67
+Beispiel:               08-05, Manipulation von Namen I
+Konzepte/               Stringfunktionen der Bibliothek string.h
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  68
+Beispiel:               08-06, Vektoren und Felder
+Konzepte/               Vektoren und mehrdimensionale Felder
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  69
+Beispiel:               08-07, Manipulation von Namen II
+Konzepte/               Zeichenketten, Zeicherkettenfunktionen
+Sprachelemente:         aus string.h
+Beispieltyp:            entwickeln
+
+***  Nr.:  70
+Beispiel:               08-08, Dauerkalender
+Konzepte/               zweidimensionales Feld,
+Sprachelemente:         Indexzugriffe auf Feldelemente
+Beispieltyp:            entwickeln
+
+***  Nr.:  71
+Beispiel:               08-09, Zeichenkettenfunktionen
+Konzepte/               Funktionen aus der Bibliothek string.h
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  72
+Beispiel:               08-10, Pascalsches Dreieck
+Konzepte/               mehrere Funktionen, Vektoren,
+Sprachelemente:         Rekursion
+Beispieltyp:            modifizieren
+
+***  Nr.:  73
+Beispiel:               08-11, Magisches Quadrat
+Konzepte/               mehrere Funktionen,
+Sprachelemente:         2D-Felder
+Beispieltyp:            entwickeln
+
+
+*********************** Kapitel 9 ********************************************
+
+***  Nr.:  74
+Beispiel:               09-01, Personendaten und Altersbestimmung
+Konzepte/               Strukturen, Typvereinbarung, Zugriff
+Sprachelemente:         auf Strukturen und deren Komponenten
+Beispieltyp:            modifizieren
+
+***  Nr.:  75
+Beispiel:               09-02, Elementares Unionen-Beispiel
+Konzepte/               Unionen
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  76
+Beispiel:               09-03, Verwaltung von Lehrgangsdaten
+Konzepte/               Bitfelder
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  77
+Beispiel:               09-04, Personen- und Mitarbeiterdaten
+Konzepte/               Strukturen und der Zugriff auf deren
+Sprachelemente:         Komponenten
+Beispieltyp:            entwickeln
+
+***  Nr.:  78
+Beispiel:               09-05, Studenten-Datenbank
+Konzepte/               Vektoren von Strukturen
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+***  Nr.:  79
+Beispiel:               09-06, Lohn und Gehalt
+Konzepte/               Unionen und Strukturen, Felder aus Strukturen
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+***  Nr.:  80
+Beispiel:               09-07, sizeof-Operator fuer Strukturen
+Konzepte/               sizeof-Operator, Strukturen, Unionen
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+
+*********************** Kapitel 10 ********************************************
+
+***  Nr.:  81
+Beispiel:               10-01, Werte und Adressen von Variablen
+Konzepte/               Adressoperator
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  82
+Beispiel:               10-02, Inhalt-Operator I
+Konzepte/               Ausgabe mittels Inhalt-von-Operator
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  83
+Beispiel:               10-03, Inhalt-von-Operator II
+Konzepte/               Operationen mittels Inhalt-von-Operator
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  84
+Beispiel:               10-04, Zeigerarithmetik
+Konzepte/               Zeigerarithmetik
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  85
+Beispiel:               10-05, Funktion fuer Wertetausch von Variablen I
+Konzepte/               Parameteruebergabe nach call-by-value-Konzept
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+***  Nr.:  86
+Beispiel:               10-06, Funktion fuer Wertetausch von Variablen II
+Konzepte/               Parameteruebergabe nach call-by-reference-Konzept
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  87
+Beispiel:               10-07, Zeiger und Felder
+Konzepte/               Zeigeranwendung auf Vektoren
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  88
+Beispiel:               10-08, Summierung von Vektorelementen
+Konzepte/               Parameteruebergabe eines Vektors an eine Funktion
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  89
+Beispiel:               10-09, Zeiger und 2D-Felder
+Konzepte/               Parameteruebergabe eines 2D-Feldes an eine Funktion
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  90
+Beispiel:               10-10, Zeiger und Zeichenketten
+Konzepte/               Zeigeranwendung auf Zeichenketten
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  91
+Beispiel:               10-11, Ermittlung von Wochentagsnamen
+Konzepte/               Vektor von Zeigern auf Zeichenketten sowie Funktionen,
+Sprachelemente:         die einen Zeiger auf eine Zeichenkette liefern
+Beispieltyp:            modifizieren
+
+***  Nr.:  92
+Beispiel:               10-12, Artikeldaten in einem Strukturvektor
+Konzepte/               Zeigeranwendung auf Strukturen
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  93
+Beispiel:               10-13, Wertetabellen fuer Polynome
+Konzepte/               Funktionszeiger
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  94
+Beispiel:               10-14, Parameter der main-Funktion I
+Konzepte/               Argumentuebergabe an die main-Funktion, Funktionen zur
+Sprachelemente:         Umwandlung von Zeichenketten in numerische Werte
+Beispieltyp:            modifizieren
+
+***  Nr.:  95
+Beispiel:               10-15, Zeiger und deren Operatoren
+Konzepte/               Zeiger, Inhalt-von-Operator (*) und Adressoperator (&)
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+***  Nr.:  96
+Beispiel:               10-16, Vektoren und Zeiger
+Konzepte/               Zugriff auf Feldelemente mit Zeigern
+Sprachelemente:         Ermittlung des aktuellen Index mit Hilfe der Zeiger
+Beispieltyp:            entwickeln
+
+***  Nr.:  97
+Beispiel:               10-17, Zeigerzugriff auf 2D-Felder
+Konzepte/               Zugriff auf Elemente eines zweidimensionalen Feldes
+Sprachelemente:         mit Hilfe von Zeigern
+Beispieltyp:            entwickeln
+
+***  Nr.:  98
+Beispiel:               10-18, Sortieren mit Bubblesort
+Konzepte/               Uebergabe eines Vektors an Funktionen
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.:  99
+Beispiel:               10-19, Personendaten in einem Strukturvektor
+Konzepte/               Zeiger auf Strukturen und der Zugriff auf die
+Sprachelemente:         Komponenten von Strukturen mit Hilfe von Zeigern
+Beispieltyp:            entwickeln
+
+***  Nr.:  100
+Beispiel:               10-20, Summe zweier Brueche
+Konzepte/               Uebergabe von Zeigern auf Strukturen an Funktionen
+Sprachelemente:         Zugriff auf Struktur-Komponenten ueber Zeiger
+Beispieltyp:            entwickeln
+
+***  Nr.: 10
+Beispiel:               10-21, Programmargumente
+Konzepte/               Argumentuebergabe an das Programm, d. h. an dessen
+Sprachelemente:         main-Funktion
+Beispieltyp:            ausfuehren
+
+***  Nr.: 102
+Beispiel:               10-22, Zeiger auf Funktionen 
+Konzepte/               Zeiger auf Funktionen
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+
+
+*********************** Kapitel 11 ********************************************
+
+***  Nr.: 103
+Beispiel:               11-01, Zeichenweises Kopieren einer Textdatei
+Konzepte/               Umgang mit Textdateien, Oeffnen und Schliessen mit den
+Sprachelemente:         Funktionen fopen, fclose, Lesen und Schreiben mit den
+                        Funktionen fgetc, fputc
+Beispieltyp:            modifizieren
+
+***  Nr.: 104
+Beispiel:               11-02, Zeilenweises Kopieren einer Textdatei
+Konzepte/               Lesen und Schreiben mit den Funktionen fgets, fputs
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.: 105
+Beispiel:               11-03, Artikeldatei verwalten I
+Konzepte/               Lesen und Schreiben mit den Funktionen fscanf, fprintf
+Sprachelemente:         Oeffnen im Anfuegemodus
+Beispieltyp:            modifizieren
+
+***  Nr.: 106
+Beispiel:               11-04, Artikeldatei verwalten II
+Konzepte/               Umgang mit Binaerdateien, Oeffnen und Schliessen mit 
+Sprachelemente:         den Funktionen fopen, fclose, Lesen und Schreiben mit
+                        den Funktionen fread, fwrite, Funktion feof
+Beispieltyp:            modifizieren
+
+***  Nr.: 107
+Beispiel:               11-05, Artikeldatei verwalten III
+Konzepte/               Umgang mit Binaerdateien, direkter Zugriff auf
+Sprachelemente:         Datensaetze, Positionierungsfunktionen fseek, ftell
+Beispieltyp:            modifizieren
+
+***  Nr.: 108
+Beispiel:               11-06, Dateizugriff I
+Konzepte/               Oeffnen einer Datei im Schreibzugriff, Schreiben
+Sprachelemente:         in eine Datei
+Beispieltyp:            entwickeln
+
+***  Nr.: 109
+Beispiel:               11-07, Dateizugriff II
+Konzepte/               Oeffnen der Datei zum Lesen, Inhalt der Datei lesen
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+***  Nr.: 110
+Beispiel:               11-08, Dateiausgabe
+Konzepte/               Argumentuebergabe, Lesen von Dateien oder von
+Sprachelemente:         stdin und Schreiben auf stdout
+Beispieltyp:            ausfuehren
+
+***  Nr.: 111
+Beispiel:               11-09, Personendatei verwalten
+Konzepte/               Lesen und Schreiben von Textdateien
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+***  Nr.: 112
+Beispiel:               11-10, Personendatei verwalten
+Konzepte/               Lesen und Schreiben von Binaerdateien
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+
+*********************** Kapitel 12 ********************************************
+
+***  Nr.: 113
+Beispiel:               12-01, Makro fuer Wertetausch I
+Konzepte/               Definition und Benutzung eines Makros
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.: 114
+Beispiel:               12-02, Makro fuer Wertetausch II
+Konzepte/               Definition und Benutzung eines typunabhaengigen Makros
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.: 115
+Beispiel:               12-03, Praeprozessoranweisungen
+Konzepte/               Konstanten, Makros, bedingte Uebersetzung
+Sprachelemente:         und weitere Praeprozessoranweisungen
+Beispieltyp:            modifizieren
+
+
+
+*********************** Kapitel 13 ********************************************
+
+***  Nr.: 116
+Beispiel:               13-01, ASCII-Tabelle
+Konzepte/               lokale static-Variablen
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.: 117
+Beispiel:               13-02, Implementierung einer Menge
+Konzepte/               Modularisierung von Programmen, mehrere Quelldateien,
+Sprachelemente:         Implementierung eines abstrakten Datentyps (ADT)
+Beispieltyp:            modifizieren
+
+***  Nr.: 118
+Beispiel:               13-03, Artikeldatenverwaltung im Arbeitsspeicher
+Konzepte/               Implementierung eines abstrakten Datentyps (ADT)
+Sprachelemente:         Artikelbestand; Datenstruktur: Vektor 
+Beispieltyp:            modifizieren
+
+***  Nr.: 119
+Beispiel:               13-04, register-Variablen
+Konzepte/               Speicherklasse register
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.: 120
+Beispiel:               13-05, Berechnung von Pseudozufallszahlen I
+Konzepte/               Speicherklasse static fuer lokale Variablen
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+***  Nr.: 121
+Beispiel:               13-06, Berechnung von Pseudozufallszahlen II
+Konzepte/               mehrere Quelldateien, Speicherklassen extern und static
+Sprachelemente:         fuer globale Variablen und Funktionen
+Beispieltyp:            entwickeln
+
+***  Nr.: 122
+Beispiel:               13-07, Boolscher Datentyp
+Konzepte/               Boolscher Datentyp, Definitionsdateien
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+
+*********************** Kapitel 14 ********************************************
+
+***  Nr.: 123
+Beispiel:               14-01, dynamische Speicherreservierung
+Konzepte/               Dynamische Speicherreservierung mit den Funktionen
+Sprachelemente:         malloc, calloc und free
+Beispieltyp:            modifizieren
+
+***  Nr.: 124
+Beispiel:               14-02, Vektor mit Zufallszahlen
+Konzepte/               dynamische Reservierung von Vektoren
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.: 125
+Beispiel:               14-03, dynamische Zeichenketten
+Konzepte/               Dynamische Verwaltung von Zeichenketten
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.: 126
+Beispiel:               14-04-1, Stapel
+Konzepte/               Implementierung verschiedener Typen von verketteten
+Sprachelemente:         Listen, Definitionsdateien und Modularisierung
+Beispieltyp:            modifizieren
+
+***  Nr.: 127
+Beispiel:               14-04-2, Schlange
+Konzepte/               Implementierung verschiedener Typen von verketteten
+Sprachelemente:         Listen, Definitionsdateien und Modularisierung
+Beispieltyp:            modifizieren
+
+***  Nr.: 128
+Beispiel:               14-04-3, sortierte Liste
+Konzepte/               Implementierung verschiedener Typen von verketteten
+Sprachelemente:         Listen, Definitionsdateien und Modularisierung
+Beispieltyp:            modifizieren
+
+***  Nr.: 129
+Beispiel:               14-05, Binaerer Baum
+Konzepte/               Implementierung eines binaeren Suchbaums
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.: 130
+Beispiel:               14-06-1, Artikelverwaltung im Arbeitsspeicher
+Konzepte/               Implementierung eines ADT Artikelbestand,
+Sprachelemente:         Modularisierung, Datenstruktur: verkettete Liste
+Beispieltyp:            modifizieren
+
+***  Nr.: 131
+Beispiel:               14-06-2, Artikelverwaltung im Arbeitsspeicher
+Konzepte/               Implementierung eines ADT Artikelbestand,
+Sprachelemente:         Modularisierung, Datenstruktur: binaerer Suchbaum
+Beispieltyp:            modifizieren
+
+***  Nr.: 132
+Beispiel:               14-07, Telefonbuch I
+Konzepte/               einfach verkettete Liste, sortiert und unsortiert,
+Sprachelemente:         Modularisierung, ADT 
+Beispieltyp:            entwickeln
+
+***  Nr.: 133
+Beispiel:               14-08, Telefonbuch II 
+Konzepte/               doppelt verkettete unsortierte Liste, 
+Sprachelemente:         Modularisierung, ADT
+Beispieltyp:            ausfuehren
+
+***  Nr.: 134
+Beispiel:               14-09, Aktenstapel 
+Konzepte/               einfach verkettete unsortierte Liste, Stapel,
+Sprachelemente:         Modularisierung, ADT
+Beispieltyp:            entwickeln
+
+***  Nr.: 135
+Beispiel:               14-10, Patientenwarteschlange
+Konzepte/               einfach verkettete unsortierte Liste, Schlange,
+Sprachelemente:         Modularisierung, ADT
+Beispieltyp:            entwickeln
+
+***  Nr.: 136
+Beispiel:               14-11, Telefonbuch III
+Konzepte/               binaerer Suchbaum, Modularisierung, ADT
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+***  Nr.: 137
+Beispiel:               14-12, Sieb des Eratosthenes
+Konzepte/               Dynamisch allokierte Vektoren
+Sprachelemente: 
+Beispieltyp:            entwickeln
+
+
+*********************** Kapitel 15 (Anhang A2) ********************************* 
+
+***  Nr.: 138
+Beispiel:               15-01, assert.h
+Konzepte/               Standard-Bibliothek, Diagnosemakro
+Sprachelemente: 
+Beispieltyp:            modifizieren
+
+***  Nr.: 139
+Beispiel:               15-02, ctype.h
+Konzepte/               Standard-Bibliothek, Zeichenfunktionen aus ctype.h
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+***  Nr.: 140
+Beispiel:               15-03, stdarg.h
+Konzepte/               Standard-Bibliothek, stdarg.h, Funktionen
+Sprachelemente:         mit variabler Argumentanzahl
+Beispieltyp:            modifizieren
+
+***  Nr.: 141
+Beispiel:               15-04, time.h
+Konzepte/               Standard-Bibliothek, Funktionen aus time.h
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+***  Nr.: 142
+Beispiel:               15-05, Abfrage des Wochentages
+Konzepte/               Funktionen und -Typen aus der time.h-Bibliothek
+Sprachelemente: 
+Beispieltyp:            ausfuehren
+
+***  Nr.: 143
+Beispiel:               15-06, ANSI-Escape-Sequenzen
+Konzepte/               einige ANSI-Escape-Sequenzen fuer die 
+Sprachelemente:         Bildschirmsteuerung
+Beispieltyp:            modifizieren
+
+ENDE DER LISTE 
+
